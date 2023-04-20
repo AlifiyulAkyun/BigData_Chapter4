@@ -289,7 +289,7 @@
  </tr>
  <tr>
     <td>texts</td>
-    <tdFungsi text pada Spark digunakan untuk membaca file teks sebagai RDD, di mana setiap baris dalam file teks akan menjadi elemen dalam RDD.</td>
+    <td>Fungsi text pada Spark digunakan untuk membaca file teks sebagai RDD, di mana setiap baris dalam file teks akan menjadi elemen dalam RDD.</td>
  </tr>
  </table>
  
