@@ -409,13 +409,13 @@
 ## CreatingDataFramesfromHive
 ![Screenshot](CreatingDataFramesfromHive/CreatingDataFramesfromHive.png)
 
-## DataSourceCSV
+## CreatingDataFramesfromDBs
 ![Screenshot](CreatingDataFramesfromDBs/CreatingDataFramesfromDBs.png)
 
-## DataSourceAVRO
+## CreatingDataFrames
 ![Screenshot](CreatingDataFrames/CreatingDataFrames.png)
 
 ## AccesingMetadata
-![Screenshot](accesingMetadata/AccesingMetadata.png)
+![Screenshot](AccesingMetadata/accesingMetadata.png)
 
 
