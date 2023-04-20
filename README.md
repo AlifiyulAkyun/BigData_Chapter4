@@ -398,7 +398,7 @@
 ![Screenshot](DataSourceJson/DataSourceJson.png)
 
 ## DataSourceCSV
-![Screenshot]DataSourceCSV/DataSourceCSV.png)
+![Screenshot](DataSourceCSV/DataSourceCSV.png)
 
 ## DataSourceAVRO
 ![Screenshot](DataSourceAVRO/DataSourceAVRO.png)
@@ -416,6 +416,6 @@
 ![Screenshot](CreatingDataFrames/CreatingDataFrames.png)
 
 ## AccesingMetadata
-![Screenshot](AccesingMetadata/accesingMetadata.png)
+![Screenshot](AccesingMetadata/accessingMetadata.png)
 
 
