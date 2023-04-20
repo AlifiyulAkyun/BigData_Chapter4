@@ -248,3 +248,73 @@
     <td>Fungsi first() pada Spark digunakan untuk mengambil elemen pertama dari sebuah RDD atau DataFrame. Misalnya, jika kita memiliki sebuah RDD dengan beberapa elemen, maka kita dapat menggunakan first() untuk mengambil elemen pertama dari RDD tersebut.</td>
  </tr>
 </table>
+
+<b>13.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>listDatabases</td>
+    <td>listDatabases() pada Spark digunakan untuk menampilkan daftar semua database yang tersedia di cluster Spark. Fungsi ini digunakan ketika Anda ingin mendapatkan informasi tentang database yang tersedia di cluster dan ingin mengaksesnya untuk melakukan operasi tertentu. Perlu diketahui bahwa fungsi ini hanya tersedia pada Spark SQL dan memerlukan SparkSession untuk digunakan.</td>
+ </tr>
+ <tr>
+    <td>listTables</td>
+    <td>listTables adalah sebuah method yang tersedia di dalam objek Catalog pada Apache Spark. Method ini digunakan untuk menampilkan daftar tabel yang tersedia dalam database Spark</td>
+ </tr>
+ <tr>
+    <td>listFunctions</td>
+    <td>Fungsi listFunctions() pada Spark SQL digunakan untuk mendapatkan daftar semua fungsi yang terdaftar di SparkSession saat ini. Ini termasuk fungsi bawaan Spark SQL dan juga fungsi yang didefinisikan oleh pengguna.</td>
+ </tr>
+ <td>isCached</td>
+    <td>Fungsi isCached() pada Spark digunakan untuk memeriksa apakah suatu DataFrame atau RDD sudah di-cache atau belum. DataFrame atau RDD yang di-cache akan disimpan di memori untuk mempercepat akses data di operasi selanjutnya.</td>
+ </tr>
+ <tr>
+    <td>select</td>
+    <td>Fungsi select pada Spark digunakan untuk memilih satu atau beberapa kolom dari DataFrame. Fungsi ini juga dapat digunakan untuk mengubah nama kolom atau menambahkan kolom baru dengan menghitung atau mentransformasi kolom yang ada.</td>
+ </tr>
+</table>
+
+
+<b>14.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>read</td>
+    <td>berbagai sumber data seperti file, database, dan streaming data. Pada saat membaca data, kita dapat menentukan format data yang ingin dibaca seperti CSV, JSON, dan parquet. Selain itu, kita juga dapat menentukan skema data atau menggunakan inferSchema untuk menentukan skema data secara otomatis. Metode read mengembalikan objek DataFrame atau Dataset tergantung pada API Spark yang digunakan.</td>
+ </tr>
+ <tr>
+    <td>texts</td>
+    <tdFungsi text pada Spark digunakan untuk membaca file teks sebagai RDD, di mana setiap baris dalam file teks akan menjadi elemen dalam RDD.</td>
+ </tr>
+ </table>
+ 
+ <b>15.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>load</td>
+    <td>Fungsi load pada Spark digunakan untuk memuat data dari berbagai sumber seperti file, basis data, atau sumber data lainnya ke dalam RDD, DataFrame, atau Dataset. Fungsi load dapat membaca data dalam berbagai format seperti CSV, JSON, Parquet, Avro, dll.</td>
+ </tr>
+ <tr>
+    <td>json</td>
+    <td>json dalam Spark digunakan untuk membaca data JSON dan mengonversinya menjadi DataFrame. Spark mendukung membaca data JSON dari berbagai sumber, termasuk file sistem lokal, Hadoop Distributed File System (HDFS), dan sistem penyimpanan data lainnya yang kompatibel dengan Hadoop. Selain itu, json dapat digunakan untuk menulis data dari DataFrame ke format JSON dan menyimpannya ke berbagai sistem penyimpanan data.</td>
+ </tr>
+  <tr>
+    <td>format</td>
+    <td>format() pada Spark digunakan untuk menggabungkan nilai-nilai ke dalam string dengan format tertentu.Sebagai contoh, jika kita memiliki variabel name dan age, kita dapat menggunakan format() untuk memasukkan nilai tersebut ke dalam sebuah string.</td>
+ </tr>
+  <tr>
+    <td>printSchema</td>
+    <td>printSchema() adalah method pada objek DataFrame di Spark yang digunakan untuk menampilkan schema atau struktur dari DataFrame tersebut. Schema merupakan definisi dari kolom-kolom atau field-field yang ada pada sebuah DataFrame, seperti nama kolom, tipe data, dll. Dengan menggunakan printSchema(), kita bisa mengecek secara cepat dan mudah struktur DataFrame untuk memastikan data sudah di-load dengan benar dan sesuai dengan ekspektasi.</td>
+ </tr>
+ </table>
+ 
+ 
