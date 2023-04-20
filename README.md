@@ -141,4 +141,110 @@
  </tr>
 </table>
 
+<b>7.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>spark.read.format</td>
+    <td>spark.read.format() adalah metode pada Spark yang digunakan untuk membaca data dari berbagai sumber data eksternal. Metode ini memungkinkan kita untuk menentukan format file input seperti CSV, JSON, Parquet, Avro, dan banyak lagi.</td>
+ </tr>
+ <tr>
+    <td>jdbc</td>
+    <td>JDBC (Java Database Connectivity) adalah sebuah API (Application Programming Interface) pada bahasa pemrograman Java yang digunakan untuk mengakses database relasional. JDBC memungkinkan aplikasi Java untuk terhubung ke database dan mengirimkan perintah-perintah SQL ke database tersebut.</td>
+ </tr>
+ <tr>
+    <td>options</td>
+    <td>options pada Spark digunakan untuk memberikan konfigurasi pada pembacaan data dari sumber eksternal seperti database, file, atau sumber data lainnya. Dalam pembacaan data dari sumber eksternal, Spark memerlukan informasi tambahan seperti alamat sumber data, kredensial login, dan konfigurasi lainnya.</td>
+ </tr>
+  <tr>
+    <td>load</td>
+    <td>Fungsi load() pada Spark digunakan untuk membaca data dari berbagai sumber data, seperti file teks, file CSV, tabel basis data, dan banyak lagi. Fungsi ini dapat membaca data dan mengembalikannya sebagai DataFrame, yang dapat diproses menggunakan operasi Spark DataFrame yang berbeda. </td>
+ </tr>
+</table>
 
+<b>8.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>show</td>
+    <td>Fungsi show() pada Spark digunakan untuk menampilkan sejumlah baris (10 baris secara default) dari Dataframe atau Dataset yang diberikan. Fungsi ini sangat berguna untuk mengecek isi dari Dataframe atau Dataset tersebut dan melakukan debugging atau eksplorasi data. Secara default, show() akan menampilkan 20 baris pertama dari data, tetapi dapat diatur jumlah baris yang ingin ditampilkan dengan mengisi argumen pada fungsi tersebut. </td>
+ </tr> 
+</table>
+
+<b>9.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>collect</td>
+    <td>Fungsi collect() pada Spark digunakan untuk mengambil seluruh data pada RDD (Resilient Distributed Dataset) dan mengembalikan array yang terdiri dari data pada RDD tersebut. Fungsi ini biasanya digunakan setelah melakukan operasi transformasi pada RDD sehingga data pada RDD tersebut dapat dikumpulkan kembali ke driver program atau disimpan ke tempat penyimpanan yang lain.</td>
+ </tr>
+ <tr>
+    <td>rdd</td>
+    <td>RDD (Resilient Distributed Datasets) pada Spark digunakan untuk merepresentasikan sebuah kumpulan data yang didistribusikan secara terdistribusi dan tahan terhadap kegagalan. RDD merupakan unit dasar pemrosesan data pada Spark dan memungkinkan pengguna untuk melakukan transformasi dan aksi pada data yang terdistribusi secara paralel di dalam sebuah cluster. </td>
+ </tr>
+ <tr>
+    <td>take</td>
+    <td>Metode take pada Spark digunakan untuk mengambil n elemen pertama dari RDD dan mengembalikannya sebagai array dalam Python atau daftar dalam Scala.</td>
+ </tr>
+</table>
+
+<b>10.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>makeRDD</td>
+    <td>makeRDD() adalah sebuah method pada SparkContext yang digunakan untuk membuat sebuah Resilient Distributed Dataset (RDD) dari data yang diberikan. Data dapat berupa list, tuple, maupun set, dan dapat dibuat menjadi RDD yang dapat didistribusikan pada cluster. </td>
+ </tr>
+ <tr>
+    <td>seq</td>
+    <td>seq pada Spark tidak tersedia sebagai fungsi bawaan dalam Spark API. Namun, di Scala, seq adalah metode bawaan dari tipe data Range, yang dapat digunakan untuk membuat kumpulan bilangan bulat berurutan.</td>
+ </tr>
+ <tr>
+    <td>createDataset</td>
+    <td>createDataset adalah sebuah metode pada Spark yang digunakan untuk membuat dataset dari sebuah kumpulan data dalam bentuk list atau iterable objects pada Python. Dataset merupakan salah satu fitur Spark yang memungkinkan pemrosesan data dalam bentuk yang sama seperti DataFrame namun dengan tipe data yang terdefinisi dengan jelas dan juga memiliki API yang lebih kuat.</td>
+ </tr>
+</table>
+
+<b>11.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>filter</td>
+    <td>filter adalah salah satu fungsi yang tersedia di Spark untuk melakukan operasi transformasi pada RDD (Resilient Distributed Datasets). Fungsi ini digunakan untuk memfilter elemen-elemen RDD yang sesuai dengan kondisi tertentu, dengan mengembalikan sebuah RDD baru yang hanya berisi elemen yang memenuhi kondisi tersebut. </td>
+ </tr>
+</table>
+
+<b>12.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>as</td>
+    <td>as pada Spark digunakan untuk memberikan alias atau nama baru pada suatu DataFrame atau kolom pada DataFrame. Alias atau nama baru yang diberikan dengan as dapat digunakan untuk referensi pada operasi-transformasi berikutnya pada DataFrame.</td>
+ </tr>
+ <tr>
+    <td>toDF</td>
+    <td>Fungsi toDF() pada Spark digunakan untuk mengonversi sebuah RDD (Resilient Distributed Dataset) menjadi sebuah DataFrame pada Spark. DataFrame adalah kumpulan data terdistribusi yang disusun ke dalam bentuk kolom. Fungsi toDF() menerima daftar nama kolom dan mengembalikan DataFrame yang berisi data RDD dengan nama kolom yang sesuai.</td>
+ </tr>
+ <tr>
+    <td>first</td>
+    <td>Fungsi first() pada Spark digunakan untuk mengambil elemen pertama dari sebuah RDD atau DataFrame. Misalnya, jika kita memiliki sebuah RDD dengan beberapa elemen, maka kita dapat menggunakan first() untuk mengambil elemen pertama dari RDD tersebut.</td>
+ </tr>
+</table>
