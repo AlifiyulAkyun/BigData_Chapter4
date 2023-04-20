@@ -373,3 +373,12 @@
  </tr>
  </table>
  
+ 
+### Tugas Praktikum
+
+**1. PandasDF2DataFrame**
+![Screenshot](PandasDF2DataFrame/PandasDF2DataFrame.png)
+**1. Datasets2DataFramesViceVersa**
+![Screenshot](Datasets2DataFramesViceVersa/Datasets2DataFramesViceVersa.png)
+
+
