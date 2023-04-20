@@ -56,6 +56,22 @@
     <td><b style="font-size:30px">Keterangan</b></td>
  </tr>
  <tr>
+    <td>parallelize</td>
+    <td>parallelize() adalah sebuah fungsi pada PySpark yang digunakan untuk mengubah data dalam bentuk list atau tuple menjadi RDD (Resilient Distributed Datasets) yang dapat diproses secara paralel di dalam cluster Spark. Dalam proses paralelisasi data, Spark akan memecah data menjadi beberapa bagian (partisi) yang akan diproses secara terpisah pada setiap node di dalam cluster.</td>
+ </tr>
+ <tr>
+    <td>toDF</td>
+    <td>toDF() adalah sebuah fungsi pada PySpark yang digunakan untuk mengubah RDD (Resilient Distributed Datasets) menjadi DataFrame. Dalam proses ini, PySpark akan menentukan schema (struktur kolom dan tipe data) DataFrame secara otomatis berdasarkan tipe data dari setiap elemen RDD. Jika RDD berisi tuple, maka setiap elemen tuple akan dianggap sebagai satu baris data dalam DataFrame.</td>
+ </tr>
+</table>
+
+<b>4.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
     <td>hadoop</td>
     <td>Hadoop pada Spark digunakan untuk memproses data secara terdistribusi di dalam cluster. Hadoop adalah framework open-source yang digunakan untuk mengelola data dan menghitung data yang sangat besar pada cluster terdistribusi. Spark dapat berintegrasi dengan Hadoop untuk memanfaatkan sistem file Hadoop HDFS dan framework pengolahan batch Apache Hadoop MapReduce.</td>
  </tr>
@@ -67,6 +83,7 @@
     <td>put</td>
     <td>put merupakan operasi untuk menulis file ke dalam HDFS (Hadoop Distributed File System) atau sistem file lainnya yang didukung oleh Spark.</td>
  </tr>
+ </table>
 
 <b>5.</b>
 <table border="0">
