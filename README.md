@@ -374,12 +374,48 @@
  </table>
  
  
-### Tugas Praktikum
+# Tugas Praktikum
 
-# PandasDF2DataFrame
+## PandasDF2DataFrame
 ![Screenshot](PandasDF2DataFrame/PandasDF2DataFrame.png)
 
-# Datasets2DataFramesViceVersa
+## Datasets2DataFramesViceVersa
 ![Screenshot](Datasets2DataFramesViceVersa/Datasets2DataFramesViceVersa.png)
+
+## DataSourceXML
+![Screenshot](DataSourceXML/DataSourceXML.png)
+
+## DataSourceTEXT
+![Screenshot](DataSourceTEXT/DataSourceTEXT.png)
+
+## DataSourceParquet
+![Screenshot](DataSourceParquet/DataSourceParquet.png)
+
+## DataSourceORC
+![Screenshot](DataSourceORC/DataSourceORC.png)
+
+## DataSourceJson
+![Screenshot](DataSourceJson/DataSourceJson.png)
+
+## DataSourceCSV
+![Screenshot]DataSourceCSV/DataSourceCSV.png)
+
+## DataSourceAVRO
+![Screenshot](DataSourceAVRO/DataSourceAVRO.png)
+
+## DataFrames2RDD
+![Screenshot](DataFrames2RDD/DataFrames2RDD.png)
+
+## CreatingDataFramesfromHive
+![Screenshot](CreatingDataFramesfromHive/CreatingDataFramesfromHive.png)
+
+## DataSourceCSV
+![Screenshot](CreatingDataFramesfromDBs/CreatingDataFramesfromDBs.png)
+
+## DataSourceAVRO
+![Screenshot](CreatingDataFrames/CreatingDataFrames.png)
+
+## AccesingMetadata
+![Screenshot](AccesingMetadata/AccesingMetadata.png)
 
 
