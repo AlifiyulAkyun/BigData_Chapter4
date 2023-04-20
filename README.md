@@ -316,5 +316,60 @@
     <td>printSchema() adalah method pada objek DataFrame di Spark yang digunakan untuk menampilkan schema atau struktur dari DataFrame tersebut. Schema merupakan definisi dari kolom-kolom atau field-field yang ada pada sebuah DataFrame, seperti nama kolom, tipe data, dll. Dengan menggunakan printSchema(), kita bisa mengecek secara cepat dan mudah struktur DataFrame untuk memastikan data sudah di-load dengan benar dan sesuai dengan ekspektasi.</td>
  </tr>
  </table>
- 
+
+<b>16.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>write</td>
+    <td>Fungsi write pada Spark digunakan untuk menulis data dari suatu DataFrame atau Dataset ke suatu sumber data, seperti file, database, atau layanan penyimpanan lainnya </td>
+ </tr>
+  <tr>
+    <td>save</td>
+    <td>save pada Spark digunakan untuk menyimpan DataFrame atau RDD ke dalam sebuah lokasi file atau direktori pada HDFS, local file system, atau sistem penyimpanan lainnya yang didukung oleh Spark. </td>
+ </tr>
+</table>
+
+<b>17.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>parquet</td>
+    <td>Parquet adalah format file kolomar yang didukung oleh Apache Spark. Parquet memungkinkan data untuk disimpan dan diproses secara efisien dengan menggunakan skema yang didefinisikan dengan jelas. Format file Parquet juga mendukung kompresi data sehingga dapat menghemat ruang penyimpanan.</td>
+ </tr>
+</table>
+
+ <b>18.</b>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Kode</b></td>
+    <td><b style="font-size:30px">Keterangan</b></td>
+ </tr>
+ <tr>
+    <td>Options</td>
+    <td>options pada Spark digunakan untuk memberikan konfigurasi tambahan saat memuat atau menulis data dari atau ke sumber data tertentu. Konfigurasi ini dapat mencakup parameter seperti host, port, delimiter, header, dan lainnya.</td>
+ </tr>
+ <tr>
+    <td>inferSchema</td>
+    <td>inferSchema adalah sebuah parameter yang dapat digunakan saat membaca data menggunakan Spark. Jika inferSchema diatur sebagai true, Spark akan mencoba untuk menentukan tipe data dari setiap kolom secara otomatis berdasarkan nilai-nilai dalam data.</td>
+ </tr>
+  <tr>
+    <td>csv</td>
+    <td>Fungsi csv pada Spark digunakan untuk membaca data dari file CSV (Comma-Separated Values) dan membuat DataFrame. Fungsi ini membaca file CSV sebagai file teks dan memetakan baris-baris pada file ke baris-baris dalam DataFrame, dengan pemisah antara kolom didefinisikan oleh delimiter yang dapat dikonfigurasi</td>
+ </tr>
+  <tr>
+    <td>header</td>
+    <td>header pada Spark digunakan untuk mengindikasikan bahwa file CSV yang dibaca memiliki baris header yang menyatakan nama kolom.</td>
+ </tr>
+   <tr>
+    <td>codec</td>
+    <td>Codec pada Spark digunakan untuk mengompresi dan mendekompresi data. Spark memiliki beberapa codec yang tersedia untuk digunakan seperti snappy, gzip, lzf, dan lainnya. Kompresi dapat membantu mengurangi ukuran data yang ditransfer dan memungkinkan untuk transfer data yang lebih cepat antara node Spark. </td>
+ </tr>
+ </table>
  
