@@ -416,6 +416,6 @@
 ![Screenshot](CreatingDataFrames/CreatingDataFrames.png)
 
 ## AccesingMetadata
-![Screenshot](AccesingMetadata/AccesingMetadata.png)
+![Screenshot](accesingMetadata/AccesingMetadata.png)
 
 
